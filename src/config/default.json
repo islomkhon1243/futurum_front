@@ -1,0 +1,4 @@
+{
+    "port": 3000,
+    "mongoUri": "mongodb+srv://islomkhon1243:islomkhon1243@cluster0.alcnfvk.mongodb.net/futurum?retryWrites=true&w=majority"
+}

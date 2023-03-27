@@ -1,0 +1,112 @@
+.user-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.user-profile-header {
+    margin-bottom: 30px;
+}
+
+.user-profile-header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.user-profile-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.user-profile-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.user-profile-sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-profile-sidebar li {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+
+.user-profile-sidebar li.active {
+    color: #0099ff;
+    border-left: 2px solid #0099ff;
+    padding-left: 10px;
+}
+
+.user-profile-main {
+    width: 75%;
+}
+
+.user-profile-main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-profile-main .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.user-profile-main label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.user-profile-main input[type="text"],
+.user-profile-main input[type="email"],
+.user-profile-main input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.user-profile-main input[type="text"]:focus,
+.user-profile-main input[type="email"]:focus,
+.user-profile-main input[type="password"]:focus {
+    border-color: #0099ff;
+    box-shadow: 0 0 0 2px rgba(0, 153, 255, 0.2);
+}
+
+.user-profile-main button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0099ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-profile-main button[type="submit"]:hover {
+    background-color: #0077cc;
+}
